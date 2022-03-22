@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="images/vista-lateral-del-caballo-de-cabeza-negra-con-crin-de-caballo.png" rel="icon">
+	<link href="images/vista-lateral-del-caballo-de-cabeza-negra-con-crin-de-caballo.png" rel="apple-touch-icon">
+  
+  
+	<title>Galeria | Andres-Designer &amp; Desarrollador </title>
+  
+	<!-- CSS _____________________________________________-->
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/icomoon.css" media="screen" />
+	<link rel="stylesheet" href="css/magnificpopup.css" media="screen" />
+	<link rel="stylesheet" href="style.css" media="screen" /> 
+
+</head>
+<body class="">
+	<!-- Loader _______________________________-->
+	<div class="loadreveal"></div>
+	<div id="loadscreen"><div id="loader"><span></span></div></div>
+
+	<!-- HEADER _____________________________________________-->
+	<header role="banner" id="header">
+			
+		<div class="wrapper">
+		
+			<!-- Main menu __-->
+			<nav id="mainmenu" role="navigation">
+			
+				<div id="menu-burger"><i class="icon-menu"></i></div>
+				<div id="searchicon">
+	
+					<form action="/" method="get" id="searchbar">
+						<fieldset>
+							<input type="text" name="s" id="searchbar-input" value="" />
+							<button type="submit" id="searchbar-submit"></button>
+						</fieldset>
+					</form>				
+				</div>
+				<div id="menu">
+					<ul>
+						<li class="current-menu-item menu-item-has-children"><a href="#">Inicio</a>
+							<ul class="sub-menu">
+								<li><a href="index.html">Principal imagen</a></li>
+								<li><a href="gallery-fullscreen.html">Carrusel de imagenes</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children"><a href="#">Galeria</a>
+							<ul class="sub-menu">
+								<li><a href="gallery-masonry.html">Galeria proyectos</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children"><a href="about.html">Sobre mi</a>
+						</li>
+</li>
+						<li><a href="contact.html">Contacto</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div> <!-- END .wrapper -->
+		
+	</header>
+
+	
+	
+	<!-- MAIN CONTENT SECTION  _____________________________________________-->
+	<section id="content" role="main">
+		<div class="wrapper">
+	
+			<h2>Galeria de cuadriculas "proyectos personales"</h2>
+
+			<nav id="gallery-filter">
+				<ul>
+					<li><a href="javascript:void(0)" data-filter="*" class="active">Todos</a></li>
+					<li><a href='javascript:void(0)' data-filter='.landscapes'>Ilustraciones</a></li>
+					<li><a href='javascript:void(0)' data-filter='.architecture'>Fotomontaje</a></li>
+					<li><a href='javascript:void(0)' data-filter='.commercial'> photoshop-Commercial</a></li>
+				</ul>
+			</nav>
+
+			<nav id="grid-changer">
+				<ul>
+					<li class="col-3"><a href="javascript:void(0)" class="active">
+						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+							<rect width="10" height="10" x="8"   y="8" />
+						</svg>
+					</a></li>
+					<li class="col-5"><a href="javascript:void(0)">
+						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+							<rect width="7" height="7" x="6"   y="6" />
+							<rect width="7" height="7" x="14" y="6" />
+							<rect width="7" height="7" x="6" y="14" />
+							<rect width="7" height="7" x="14" y="14" />
+						</svg>
+					</a></li>
+				</ul>
+			</nav>
+			
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+				
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/Homer.jpg" class="popup"><img src="images/Homer.jpg"alt="" /></a>
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>Homero simpson</h3>
+							<p>los simpson</p>
+						</div>
+					</figcaption>
+				</figure>
+				
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/palomo.png" class="popup"><img src="images/palomo.png"alt="" /></a>
+					</header>
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>El palomo cojo</h3>
+							<p>Description of an image</p>
+						</div>
+					</figcaption>
+				</figure>				
+
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/jonnyDep.png" class="popup"><img src="images/jonnyDep.png"alt="" /></a>
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>johnny depp</h3>
+							<p>ilustracion de johnny depp</p>
+						</div>
+					</figcaption>
+				</figure>
+
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/pain.jpg" class="popup"><img src="images/pain.jpg"alt="" /></a>
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>Arco de pain</h3>
+							<p>naruto shippuden</p>
+						</div>
+					</figcaption>
+				</figure>
+			
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/phamto.png" class="popup"><img src="images/phamto.png"alt="" /></a>
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>Glasgow.</h3>
+							<p>Rey fantasma</p>
+						</div>
+					</figcaption>
+				</figure>
+				
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/pulpo.png" class="popup"><img src="images/pulpo.png"alt="" /></a>
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>Mesonychoteuthis hamiltoni.</h3>
+							<p>Ilustracion de pulpo</p>
+						</div>
+					</figcaption>
+				</figure>
+
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/tom.jpg" class="popup"><img src="images/tom.jpg"alt="" /></a>
+					</header>
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>Tomy y daly</h3>
+							<p>los simpson</p>
+						</div>
+					</figcaption>
+				</figure>
+				
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/dibujo.png" class="popup"><img src="images/dibujo.png"alt="" /></a>
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3> All Hallow´s</h3>
+							<p>Fntasma de halloween</p>
+						</div>
+					</figcaption>
+				</figure>
+
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/ANUBIS.jpg" class="popup"><img src="images/ANUBIS.jpg"alt="" /></a>
+					</header>
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>Anubis</h3>
+							<p>Dios de egipto</p>
+						</div>
+					</figcaption>
+				</figure>
+
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/rosca.jpg" class="popup"><img src="images/rosca.jpg"alt="" /></a>
+					</header>
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>homero con dona</h3>
+							<p>Los simpson</p>
+						</div>
+					</figcaption>
+				</figure>
+				
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/desierto.png" class="popup"><img src="images/desierto.png"alt="" /></a>
+					</header>
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>Desierto</h3>
+							<p>Ilustecion desierto</p>
+						</div>
+					</figcaption>
+				</figure>
+
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/nuevanilda.jpg" class="popup"><img src="images/nuevanilda.jpg"alt="" /></a>
+					</header>
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>Emma.</h3>
+							<p>Ilustracion de Emma</p>
+						</div>
+					</figcaption>
+				</figure>
+
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/explorador.jpg" class="popup"><img src="images/explorador.jpg"alt="" /></a>
+					</header>
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>Explorador</h3>
+							<p>Ilustracion explorador</p>
+						</div>
+					</figcaption>
+				</figure>
+
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/dios ra.png" class="popup"><img src="images/dios ra.png"alt="" /></a>
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>Dios Ra</h3>
+							<p>Dios del Sol </p>
+						</div>
+					</figcaption>
+				</figure>
+
+				<figure class="gallery-item landscapes">
+					<header class='gallery-icon'>
+						<a href="images/servero.jpg" class="popup"><img src="images/servero.jpg"alt="" /></a>
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>Cervero</h3>
+							<p> Κέρβερος</p>
+						</div>
+					</figcaption>
+				</figure>
+
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/The Portal_Final.jpg" class="popup"><img src="images/The Portal_Final.jpg"alt="" /></a>
+					</header>
+				</figure>
+				
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/buffalo.jpg" class="popup"><img src="images/buffalo.jpg"alt="" /></a>
+					</header>
+				</figure>
+				
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/mujer.jpg" class="popup"><img src="images/mujer.jpg"alt="" /></a>
+					</header>
+				</figure>
+
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/monster serpiente.jpg" class="popup"><img src="images/monster serpiente.jpg"alt="" /></a>
+					</header>
+				</figure>
+
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/samurai.jpg" class="popup"><img src="images/samurai.jpg"alt="" /></a>
+					</header>
+				</figure>
+
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/love.jpg" class="popup"><img src="images/love.jpg"alt="" /></a>
+					</header>
+				</figure>
+
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/poster de pelicula.jpg" class="popup"><img src="images/poster de pelicula.jpg"alt="" /></a>
+					</header>
+				</figure>
+
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/wanda.jpg" class="popup"><img src="images/wanda.jpg"alt="" /></a>
+					</header>
+				</figure>
+
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/espider.jpg" class="popup"><img src="images/espider.jpg"alt="" /></a>
+					</header>
+				</figure>
+
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/asbtracta.jpg" class="popup"><img src="images/asbtracta.jpg"alt="" /></a>
+					</header>
+				</figure>
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/espiritu de niño.jpg" class="popup"><img src="images/espiritu de niño.jpg"alt="" /></a>
+					</header>
+				</figure>
+
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/insomnia.jpg" class="popup"><img src="images/insomnia.jpg"alt="" /></a>
+					</header>
+				</figure>
+
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/clave vaja-gato.jpg" class="popup"><img src="images/clave vaja-gato.jpg"alt="" /></a>
+					</header>
+				</figure>
+
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/venado.jpg" class="popup"><img src="images/venado.jpg"alt="" /></a>
+					</header>
+				</figure>
+
+				<figure class="gallery-item architecture">
+					<header class='gallery-icon'>
+						<a href="images/luna de fuego.jpg" class="popup"><img src="images/luna de fuego.jpg"alt="" /></a>
+					</header>
+				</figure>
+				
+				<figure class="gallery-item architecture commercial">
+					<header class='gallery-icon'>
+						<a href="images/jack.jpg" class="popup"><img src="images/jack.jpg"alt="" /></a>
+					</header>
+				</figure>
+				
+				<figure class="gallery-item architecture commercial">
+					<header class='gallery-icon'>
+						<a href="images/fast food.jpg" class="popup"><img src="images/fast food.jpg"alt="" /></a>
+					</header>
+				</figure>
+				
+				<figure class="gallery-item architecture commercial">
+					<header class='gallery-icon'>
+						<a href="images/musical.jpg" class="popup"><img src="images/musical.jpg"alt="" /></a>
+					</header>
+				</figure>
+				
+				<figure class="gallery-item architecture commercial">
+					<header class='gallery-icon'>
+						<a href="images/star crazt.jpg" class="popup"><img src="images/star crazt.jpg"alt="" /></a>
+					</header>
+				</figure>
+				
+				<figure class="gallery-item architecture commercial">
+					<header class='gallery-icon'>
+						<a href="images/electronight.jpg" class="popup"><img src="images/electronight.jpg"alt="" /></a>
+					</header>
+				</figure>
+			</div>
+			
+			
+
+		</div><!-- END .wrapper -->
+	</section>
+
+	
+	<footer id="footer" role="contentinfo">
+		<div class="entry-social">
+			<p> <span class="sharers"> &nbsp;<a href="https://www.instagram.com/designer_andresladino/?hl=es" target="_blank">Instagram</a> <a href="https://twitter.com/home" target="_blank">Twiter</a></span></p>
+		</div>
+
+		<p class="back-to-top"><a href="#header">Volver arriba ↑</a></p>
+		<ul class="links unstyled">
+			<li>&copy; Andres ladino, All rights reserved 2021</li>
+		  </ul>
+	</footer>
+
+<!-- Javascripts ______________________________________-->
+<script src="js/jquery.min.js"></script> 
+<script src="js/retina.min.js"></script> 
+<script src="js/isotope.pkgd.min.js"></script> 
+<script src="js/jquery.magnific-popup.min.js"></script> 
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/jquery.tinycarousel.min.js"></script>
+<script src="js/jquery.lazylinepainter.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
